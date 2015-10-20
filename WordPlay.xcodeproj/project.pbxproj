@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF3280041BD6E9B300B46134 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3280031BD6E9B300B46134 /* main.m */; };
+		EF3280071BD6E9B300B46134 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3280061BD6E9B300B46134 /* AppDelegate.m */; };
+		EF32800A1BD6E9B300B46134 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3280091BD6E9B300B46134 /* ViewController.m */; };
+		EF32800D1BD6E9B300B46134 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF32800B1BD6E9B300B46134 /* Main.storyboard */; };
+		EF32800F1BD6E9B300B46134 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF32800E1BD6E9B300B46134 /* Assets.xcassets */; };
+		EF3280121BD6E9B300B46134 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF3280101BD6E9B300B46134 /* LaunchScreen.storyboard */; };
+		EF32801D1BD6E9B300B46134 /* WordPlayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF32801C1BD6E9B300B46134 /* WordPlayTests.m */; };
+		EF3280281BD6E9B300B46134 /* WordPlayUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3280271BD6E9B300B46134 /* WordPlayUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF3280191BD6E9B300B46134 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF327FF71BD6E9B300B46134 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF327FFE1BD6E9B300B46134;
+			remoteInfo = WordPlay;
+		};
+		EF3280241BD6E9B300B46134 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF327FF71BD6E9B300B46134 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF327FFE1BD6E9B300B46134;
+			remoteInfo = WordPlay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF327FFF1BD6E9B300B46134 /* WordPlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WordPlay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF3280031BD6E9B300B46134 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF3280051BD6E9B300B46134 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EF3280061BD6E9B300B46134 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EF3280081BD6E9B300B46134 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EF3280091BD6E9B300B46134 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EF32800C1BD6E9B300B46134 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF32800E1BD6E9B300B46134 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF3280111BD6E9B300B46134 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF3280131BD6E9B300B46134 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF3280181BD6E9B300B46134 /* WordPlayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WordPlayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF32801C1BD6E9B300B46134 /* WordPlayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WordPlayTests.m; sourceTree = "<group>"; };
+		EF32801E1BD6E9B300B46134 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF3280231BD6E9B300B46134 /* WordPlayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WordPlayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF3280271BD6E9B300B46134 /* WordPlayUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WordPlayUITests.m; sourceTree = "<group>"; };
+		EF3280291BD6E9B300B46134 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF327FFC1BD6E9B300B46134 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF3280151BD6E9B300B46134 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF3280201BD6E9B300B46134 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF327FF61BD6E9B300B46134 = {
+			isa = PBXGroup;
+			children = (
+				EF3280011BD6E9B300B46134 /* WordPlay */,
+				EF32801B1BD6E9B300B46134 /* WordPlayTests */,
+				EF3280261BD6E9B300B46134 /* WordPlayUITests */,
+				EF3280001BD6E9B300B46134 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF3280001BD6E9B300B46134 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF327FFF1BD6E9B300B46134 /* WordPlay.app */,
+				EF3280181BD6E9B300B46134 /* WordPlayTests.xctest */,
+				EF3280231BD6E9B300B46134 /* WordPlayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF3280011BD6E9B300B46134 /* WordPlay */ = {
+			isa = PBXGroup;
+			children = (
+				EF3280051BD6E9B300B46134 /* AppDelegate.h */,
+				EF3280061BD6E9B300B46134 /* AppDelegate.m */,
+				EF3280081BD6E9B300B46134 /* ViewController.h */,
+				EF3280091BD6E9B300B46134 /* ViewController.m */,
+				EF32800B1BD6E9B300B46134 /* Main.storyboard */,
+				EF32800E1BD6E9B300B46134 /* Assets.xcassets */,
+				EF3280101BD6E9B300B46134 /* LaunchScreen.storyboard */,
+				EF3280131BD6E9B300B46134 /* Info.plist */,
+				EF3280021BD6E9B300B46134 /* Supporting Files */,
+			);
+			path = WordPlay;
+			sourceTree = "<group>";
+		};
+		EF3280021BD6E9B300B46134 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF3280031BD6E9B300B46134 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EF32801B1BD6E9B300B46134 /* WordPlayTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF32801C1BD6E9B300B46134 /* WordPlayTests.m */,
+				EF32801E1BD6E9B300B46134 /* Info.plist */,
+			);
+			path = WordPlayTests;
+			sourceTree = "<group>";
+		};
+		EF3280261BD6E9B300B46134 /* WordPlayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EF3280271BD6E9B300B46134 /* WordPlayUITests.m */,
+				EF3280291BD6E9B300B46134 /* Info.plist */,
+			);
+			path = WordPlayUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF327FFE1BD6E9B300B46134 /* WordPlay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF32802C1BD6E9B300B46134 /* Build configuration list for PBXNativeTarget "WordPlay" */;
+			buildPhases = (
+				EF327FFB1BD6E9B300B46134 /* Sources */,
+				EF327FFC1BD6E9B300B46134 /* Frameworks */,
+				EF327FFD1BD6E9B300B46134 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WordPlay;
+			productName = WordPlay;
+			productReference = EF327FFF1BD6E9B300B46134 /* WordPlay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF3280171BD6E9B300B46134 /* WordPlayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF32802F1BD6E9B300B46134 /* Build configuration list for PBXNativeTarget "WordPlayTests" */;
+			buildPhases = (
+				EF3280141BD6E9B300B46134 /* Sources */,
+				EF3280151BD6E9B300B46134 /* Frameworks */,
+				EF3280161BD6E9B300B46134 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF32801A1BD6E9B300B46134 /* PBXTargetDependency */,
+			);
+			name = WordPlayTests;
+			productName = WordPlayTests;
+			productReference = EF3280181BD6E9B300B46134 /* WordPlayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EF3280221BD6E9B300B46134 /* WordPlayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF3280321BD6E9B300B46134 /* Build configuration list for PBXNativeTarget "WordPlayUITests" */;
+			buildPhases = (
+				EF32801F1BD6E9B300B46134 /* Sources */,
+				EF3280201BD6E9B300B46134 /* Frameworks */,
+				EF3280211BD6E9B300B46134 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF3280251BD6E9B300B46134 /* PBXTargetDependency */,
+			);
+			name = WordPlayUITests;
+			productName = WordPlayUITests;
+			productReference = EF3280231BD6E9B300B46134 /* WordPlayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF327FF71BD6E9B300B46134 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Mike;
+				TargetAttributes = {
+					EF327FFE1BD6E9B300B46134 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					EF3280171BD6E9B300B46134 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = EF327FFE1BD6E9B300B46134;
+					};
+					EF3280221BD6E9B300B46134 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = EF327FFE1BD6E9B300B46134;
+					};
+				};
+			};
+			buildConfigurationList = EF327FFA1BD6E9B300B46134 /* Build configuration list for PBXProject "WordPlay" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF327FF61BD6E9B300B46134;
+			productRefGroup = EF3280001BD6E9B300B46134 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF327FFE1BD6E9B300B46134 /* WordPlay */,
+				EF3280171BD6E9B300B46134 /* WordPlayTests */,
+				EF3280221BD6E9B300B46134 /* WordPlayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF327FFD1BD6E9B300B46134 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF3280121BD6E9B300B46134 /* LaunchScreen.storyboard in Resources */,
+				EF32800F1BD6E9B300B46134 /* Assets.xcassets in Resources */,
+				EF32800D1BD6E9B300B46134 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF3280161BD6E9B300B46134 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF3280211BD6E9B300B46134 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF327FFB1BD6E9B300B46134 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF32800A1BD6E9B300B46134 /* ViewController.m in Sources */,
+				EF3280071BD6E9B300B46134 /* AppDelegate.m in Sources */,
+				EF3280041BD6E9B300B46134 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF3280141BD6E9B300B46134 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF32801D1BD6E9B300B46134 /* WordPlayTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF32801F1BD6E9B300B46134 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF3280281BD6E9B300B46134 /* WordPlayUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF32801A1BD6E9B300B46134 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF327FFE1BD6E9B300B46134 /* WordPlay */;
+			targetProxy = EF3280191BD6E9B300B46134 /* PBXContainerItemProxy */;
+		};
+		EF3280251BD6E9B300B46134 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF327FFE1BD6E9B300B46134 /* WordPlay */;
+			targetProxy = EF3280241BD6E9B300B46134 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF32800B1BD6E9B300B46134 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF32800C1BD6E9B300B46134 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF3280101BD6E9B300B46134 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF3280111BD6E9B300B46134 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF32802A1BD6E9B300B46134 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EF32802B1BD6E9B300B46134 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF32802D1BD6E9B300B46134 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WordPlay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Mike.WordPlay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EF32802E1BD6E9B300B46134 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WordPlay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Mike.WordPlay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EF3280301BD6E9B300B46134 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WordPlayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Mike.WordPlayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WordPlay.app/WordPlay";
+			};
+			name = Debug;
+		};
+		EF3280311BD6E9B300B46134 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WordPlayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Mike.WordPlayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WordPlay.app/WordPlay";
+			};
+			name = Release;
+		};
+		EF3280331BD6E9B300B46134 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WordPlayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Mike.WordPlayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WordPlay;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		EF3280341BD6E9B300B46134 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WordPlayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Mike.WordPlayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WordPlay;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF327FFA1BD6E9B300B46134 /* Build configuration list for PBXProject "WordPlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF32802A1BD6E9B300B46134 /* Debug */,
+				EF32802B1BD6E9B300B46134 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF32802C1BD6E9B300B46134 /* Build configuration list for PBXNativeTarget "WordPlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF32802D1BD6E9B300B46134 /* Debug */,
+				EF32802E1BD6E9B300B46134 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EF32802F1BD6E9B300B46134 /* Build configuration list for PBXNativeTarget "WordPlayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF3280301BD6E9B300B46134 /* Debug */,
+				EF3280311BD6E9B300B46134 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EF3280321BD6E9B300B46134 /* Build configuration list for PBXNativeTarget "WordPlayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF3280331BD6E9B300B46134 /* Debug */,
+				EF3280341BD6E9B300B46134 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF327FF71BD6E9B300B46134 /* Project object */;
+}

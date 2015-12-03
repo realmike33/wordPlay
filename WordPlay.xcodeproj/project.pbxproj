@@ -15,6 +15,11 @@
 		EF3280121BD6E9B300B46134 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF3280101BD6E9B300B46134 /* LaunchScreen.storyboard */; };
 		EF32801D1BD6E9B300B46134 /* WordPlayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF32801C1BD6E9B300B46134 /* WordPlayTests.m */; };
 		EF3280281BD6E9B300B46134 /* WordPlayUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3280271BD6E9B300B46134 /* WordPlayUITests.m */; };
+		EF3280371BD6EB9800B46134 /* EnterNameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3280361BD6EB9800B46134 /* EnterNameViewController.m */; settings = {ASSET_TAGS = (); }; };
+		EF32803A1BD6F3BB00B46134 /* EnterAdjectiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3280391BD6F3BB00B46134 /* EnterAdjectiveViewController.m */; settings = {ASSET_TAGS = (); }; };
+		EF32803D1BD6F56D00B46134 /* ResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF32803C1BD6F56D00B46134 /* ResultsViewController.m */; settings = {ASSET_TAGS = (); }; };
+		EF3280401BD72F2000B46134 /* EnterVerbViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF32803F1BD72F2000B46134 /* EnterVerbViewController.m */; settings = {ASSET_TAGS = (); }; };
+		EF3280431BD72F8100B46134 /* EnterLocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3280421BD72F8100B46134 /* EnterLocationViewController.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,16 @@
 		EF3280231BD6E9B300B46134 /* WordPlayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WordPlayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF3280271BD6E9B300B46134 /* WordPlayUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WordPlayUITests.m; sourceTree = "<group>"; };
 		EF3280291BD6E9B300B46134 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF3280351BD6EB9800B46134 /* EnterNameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnterNameViewController.h; sourceTree = "<group>"; };
+		EF3280361BD6EB9800B46134 /* EnterNameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnterNameViewController.m; sourceTree = "<group>"; };
+		EF3280381BD6F3BB00B46134 /* EnterAdjectiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnterAdjectiveViewController.h; sourceTree = "<group>"; };
+		EF3280391BD6F3BB00B46134 /* EnterAdjectiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnterAdjectiveViewController.m; sourceTree = "<group>"; };
+		EF32803B1BD6F56D00B46134 /* ResultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultsViewController.h; sourceTree = "<group>"; };
+		EF32803C1BD6F56D00B46134 /* ResultsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultsViewController.m; sourceTree = "<group>"; };
+		EF32803E1BD72F2000B46134 /* EnterVerbViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnterVerbViewController.h; sourceTree = "<group>"; };
+		EF32803F1BD72F2000B46134 /* EnterVerbViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnterVerbViewController.m; sourceTree = "<group>"; };
+		EF3280411BD72F8100B46134 /* EnterLocationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnterLocationViewController.h; sourceTree = "<group>"; };
+		EF3280421BD72F8100B46134 /* EnterLocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnterLocationViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +121,16 @@
 				EF3280081BD6E9B300B46134 /* ViewController.h */,
 				EF3280091BD6E9B300B46134 /* ViewController.m */,
 				EF32800B1BD6E9B300B46134 /* Main.storyboard */,
+				EF3280411BD72F8100B46134 /* EnterLocationViewController.h */,
+				EF3280421BD72F8100B46134 /* EnterLocationViewController.m */,
+				EF32803E1BD72F2000B46134 /* EnterVerbViewController.h */,
+				EF32803F1BD72F2000B46134 /* EnterVerbViewController.m */,
+				EF32803B1BD6F56D00B46134 /* ResultsViewController.h */,
+				EF32803C1BD6F56D00B46134 /* ResultsViewController.m */,
+				EF3280381BD6F3BB00B46134 /* EnterAdjectiveViewController.h */,
+				EF3280391BD6F3BB00B46134 /* EnterAdjectiveViewController.m */,
+				EF3280351BD6EB9800B46134 /* EnterNameViewController.h */,
+				EF3280361BD6EB9800B46134 /* EnterNameViewController.m */,
 				EF32800E1BD6E9B300B46134 /* Assets.xcassets */,
 				EF3280101BD6E9B300B46134 /* LaunchScreen.storyboard */,
 				EF3280131BD6E9B300B46134 /* Info.plist */,
@@ -271,7 +296,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF32800A1BD6E9B300B46134 /* ViewController.m in Sources */,
+				EF3280401BD72F2000B46134 /* EnterVerbViewController.m in Sources */,
 				EF3280071BD6E9B300B46134 /* AppDelegate.m in Sources */,
+				EF32803A1BD6F3BB00B46134 /* EnterAdjectiveViewController.m in Sources */,
+				EF32803D1BD6F56D00B46134 /* ResultsViewController.m in Sources */,
+				EF3280371BD6EB9800B46134 /* EnterNameViewController.m in Sources */,
+				EF3280431BD72F8100B46134 /* EnterLocationViewController.m in Sources */,
 				EF3280041BD6E9B300B46134 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
